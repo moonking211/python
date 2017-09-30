@@ -1,0 +1,22 @@
+<html>
+    <p>
+        Dear {{user.first_name}} {{user.last_name}}
+    </p>
+    <p>
+        Welcome to {{user.trading_desk}}! 
+    </p>
+    <p>
+        Your username is {{user.username}}
+    </p>
+    <p>
+        To activate your account, please <a href="{{reset_password_url}}">click here</a> to reset your master password. This is the only password you have to remember, so make it a good one!
+    </p>
+    <p>
+        Thank you,<br>
+        {{user.trading_desk}} Team.
+    </p>
+    <br>
+    <p>
+        THIS EMAIL WAS AUTO-GENERATED - DO NOT REPLY TO THIS EMAIL
+    </p>
+</html>
